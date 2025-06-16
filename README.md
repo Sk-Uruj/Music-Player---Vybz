@@ -4,3 +4,5 @@ and play songs with a clean, responsive UI.
 
 ## Preview 
 
+![Image](https://github.com/user-attachments/assets/a70bbd2c-382a-4878-b799-67972083e4e6)
+![Image](https://github.com/user-attachments/assets/bfdaf89a-5efc-41fa-a722-fe945c25106e)
