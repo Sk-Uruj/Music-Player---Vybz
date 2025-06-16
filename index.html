@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VYBZ - Web Player : Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <i class="fa-solid fa-xmark close"></i>
+            </div>
+            <div class="home bg-grey rounded m-1 p-1 ">
+                <div class="logo "><i class="fa-brands fa-spotify"></i></div>
+                <ul>
+                    <li> <i class="fa-solid fa-magnifying-glass"></i>Home</li>
+                    <li><i class="fa-solid fa-house"></i>Search</li>
+                </ul>
+            </div>
+
+            <div class="library bg-black bg-grey m-1 p-1">
+                <div class="heading">
+                    <i class="fa-brands fa-stack-overflow"></i>
+                    <h2>Your library</h2>
+                </div>
+                <div class="songList">
+                    <ul>
+                    
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink" id="">
+                        <div><span data-encore-id="type">Legal</span>
+                    </a>
+                </div>
+                <div><a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Safety &amp; Privacy Center</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Privacy Policy</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Cookies</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">About Ads</span></a></div>
+                <div><a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink" id="">
+                        <span data-encore-id="type">Accessibility</span></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right bg-grey rounded ">
+        <div class="header ">
+            <div class="nav">
+                <div class="hamburgerCont">
+                <i class="fa-solid fa-bars hamburger"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+                <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            </div >
+            <div class="buttons">
+                <button class="SignUpbtn">Sign Up</button>
+                <button class="loginBtn">Log in</button>
+            </div>
+        </div>
+
+        <div class="spotifyPlaylists">
+            <h1>Vybz Playlists</h1>
+            <div class="cardContainer ">
+                
+
+            </div>
+
+
+
+            <div class="playbar">  
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>  
+
+                <div class="abovebar">
+                <div class="songinfo"></div>
+                <div class="songButtons">
+                <i id="previous" class="fa-solid fa-backward-step"></i>
+                <i id="play" class="fa-regular fa-circle-play"></i>
+                <i id="next" class="fa-solid fa-forward-step"></i>
+                </div>
+                <div class="timevol">
+                <div class="songtime"></div>
+                <div class="volume">
+                    <i class="fa-solid fa-volume-high"></i> 
+                    <div class="range">
+                        <input type="range" name="volume" >
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html> 
